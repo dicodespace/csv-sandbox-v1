@@ -7,5 +7,5 @@ def main(file_path):
         for row in csv_reader:
             print(row)
 
-main("records.csv")
-main("users.csv")
+main("data/records.csv")
+main("data/users.csv")
