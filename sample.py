@@ -13,7 +13,7 @@ def main(filepath):
             total_pending = float(row['total_pending'])
             total_transactions = float(row['total_transactions'])
 
-            total_revenue += total_pending + total_received
+            total_revenue = total_pending + total_received
             avg_transaction = total_revenue / total_transactions
 
             print(f"Center: {center_name}")
